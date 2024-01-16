@@ -1,4 +1,4 @@
-timport os
+import os
 
 class Config:
     API_ID = int( os.getenv("api_id","15191874") )
